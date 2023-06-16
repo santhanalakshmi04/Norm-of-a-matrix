@@ -19,7 +19,7 @@ import numpy as np
 array=np.array(eval(input()))
 n=np.linalg.norm(array,1)
 print("{:.2f}".format(n))
-
+```
 
 
 # 2-Norm of a Matrix
@@ -32,7 +32,7 @@ import numpy as np
 array=np.array(eval(input()))
 n=np.linalg.norm(array,2)
 print("{:.2f}".format(n))
-
+```
 
 # Infinity Norm of a Matrix
 
