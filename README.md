@@ -27,7 +27,7 @@ print("{:.2f}".format(n))
 Program to find 2-norm of a matrix.
 Developed by: K.SANTHANA LAKSHMI
 RegisterNumber: 22003398
-'''
+```
 import numpy as np
 array=np.array(eval(input()))
 n=np.linalg.norm(array,2)
@@ -36,18 +36,16 @@ print("{:.2f}".format(n))
 
 # Infinity Norm of a Matrix
 
-'''
+
 Program to find 1-norm of a matrix.
 Developed by:K.SANTHANA LAKSHMI
 RegisterNumber: 22003398
-'''
+```
 import numpy as np
 mat=np.array(eval(input()))
 ans=np.linalg.norm(mat,np.inf)
 norm_of_matrix="{:.2f}".format(ans)
 print(norm_of_matrix)
-
-
 
 ```
 ## Output:
